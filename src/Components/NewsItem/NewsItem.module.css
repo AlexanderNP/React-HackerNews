@@ -1,0 +1,50 @@
+.newsItem{
+  cursor: pointer;
+  padding: 2vw;
+  border-radius: 0.6vw;
+  border: 0.1vw solid #fff;
+}
+
+.newsItem:hover{
+  background-color: #fff; 
+  color: black;
+}
+
+.title {
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-bottom: 1.5vw;
+
+}
+
+.author{
+  color: #a6a6a6;
+  margin-bottom: 0.5vw;
+}
+
+.boxText{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
